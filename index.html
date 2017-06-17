@@ -12,9 +12,10 @@
     <link href="assets/css/core.min.css" rel="stylesheet">
     <link href="assets/css/thesaas.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="assets/img/favicon.png">
     <link rel="icon" href="assets/img/favicon.png">
   </head>
 
@@ -28,8 +29,10 @@
         <div class="topbar-left">
           <button class="topbar-toggler">&#9776;</button>
           <a class="topbar-brand" href="index.html">
-            <img class="logo-default" src="assets/img/logo.png" alt="logo">
-            <img class="logo-inverse" src="assets/img/logo-light.png" alt="logo">
+            <!-- <img class="logo-default" src="assets/img/logo.png" alt="logo"> -->
+            <h2 class="logo-default" style="font-family: 'Roboto', sans-serif;"">Yeva</h2>
+            <h2 class="logo-inverse" style="font-family: 'Roboto', sans-serif; color: white">Yeva</h2>
+            <!-- <img class="logo-inverse" src="assets/img/logo-light.png" alt="logo"> -->
           </a>
         </div>
 
@@ -67,12 +70,12 @@
 
             <a  data-scrollto="section-signup" class="btn btn-xl btn-round btn-white w-300 mr-12 hidden-sm-down" href="#">Get Started</a>
             <a data-scrollto="section-signup" class="btn btn-lg btn-round btn-white w-250 hidden-md-up" href="#">Get Started</a>
-            <a class="btn btn-xl btn-round btn-outline btn-white w-300 hidden-sm-down" href="#">Enterprise Solutions</a>
+            <a class="btn btn-xl btn-round btn-outline btn-white w-300 hidden-sm-down" href="enterprise.html">Enterprise Solutions</a>
 
           </div>
 
           <div class="col-12 align-self-end text-center">
-            <a class="scroll-down-1 scroll-down-inverse" href="#" data-scrollto="section-intro"><span></span></a>
+            <a class="scroll-down-1 scroll-down-inverse" href="#" data-scrollto="section-features"><span></span></a>
           </div>
 
         </div>
@@ -268,38 +271,40 @@
 
               </div>
             </div>
+
+            <div class="col-12 offset-md-3 col-md-6 offset-lg-2 col-lg-8">
+
+              <button class="btn btn-block btn-lg btn-info">Contact Us</button>
+
+            </div>
+
           </div>
         </div>
       </section>
 
+      <section class="section py-150 bg-gray">
+        <div class="container">
+
+          <div class="row">
+            
+            <div class="col-12 col-lg-6 pl-50 pr-80">
+              <h2>Our Mission</h2>
+              <p class="lead">As caregivers for a mother with Cancer, a friend with Dementia, and a grandmother with ALS, we know how overwhelming caregiving can be. We created Yeva to help the more than 55 million caregivers in the US succeed in their caregiving and feel supported. </p>
 
 
+            
+            </div>
 
 
+            <div class="col-lg-6 hidden-md-down align-self-center">
+              <img class="shadow-3" src="assets/img/about-us.jpg" alt="..." data-aos="fade-left" data-aos-duration="1500">
+            </div>
+
+          </div>
 
 
-      <!--
-      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-      | Download Now
-      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-      !-->
-      <!-- <section class="section section-inverse" style="background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);" id="section-download">
-        <div class="container-fluid">
-          <header class="section-header">
-            <small><strong>It's free</strong></small>
-            <h2 class="fs-45">Download Skype</h2>
-            <hr>
-            <p class="lead">Download Skype on your computer, tablet, mobile and more. Or use Skype straight away on your browser.</p>
-          </header>
-
-          <p class="text-center">
-            <a class="btn btn-lg btn-primary w-250" href="#">Download Now</a><br>
-            <small><a class="text-white" href="#">or download <span class="mark-border">Browser Extension</span></a></small>
-          </p>
         </div>
-      </section> -->
-
-
+      </section>
 
 
 
@@ -310,88 +315,8 @@
       | FAQ
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       !-->
-      <!-- <section class="section" id="section-faq">
-        <div class="container">
-          <header class="section-header">
-            <small>FAQ</small>
-            <h2>Frequently Asked Questions</h2>
-            <hr>
-            <p class="lead">Drop us an email if you couldn't find an answer to your question in the following list</p>
-          </header>
 
-
-
-          <div class="accordion" id="accordion-general">
-            <div class="card">
-              <h5 class="card-title">
-                <a data-toggle="collapse" data-parent="#accordion-general" href="#collapse-general-1">What is TheSaaS?</a>
-              </h5>
-
-              <div id="collapse-general-1" class="collapse in">
-                <div class="card-block">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                </div>
-              </div>
-            </div>
-
-
-            <div class="card">
-              <h5 class="card-title">
-                <a data-toggle="collapse" data-parent="#accordion-general" href="#collapse-general-2">Where can I learn more about how to use TheSaaS?</a>
-              </h5>
-
-              <div id="collapse-general-2" class="collapse">
-                <div class="card-block">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                </div>
-              </div>
-            </div>
-
-
-            <div class="card">
-              <h5 class="card-title">
-                <a data-toggle="collapse" data-parent="#accordion-general" href="#collapse-general-3">Where can I get more details about your security practices?</a>
-              </h5>
-
-              <div id="collapse-general-3" class="collapse">
-                <div class="card-block">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                </div>
-              </div>
-            </div>
-
-
-            <div class="card">
-              <h5 class="card-title">
-                <a data-toggle="collapse" data-parent="#accordion-general" href="#collapse-general-4">Where can I get more details about your security practices?</a>
-              </h5>
-
-              <div id="collapse-general-4" class="collapse">
-                <div class="card-block">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                </div>
-              </div>
-            </div>
-
-
-            <div class="card">
-              <h5 class="card-title">
-                <a data-toggle="collapse" data-parent="#accordion-general" href="#collapse-general-5">What is TheSaaS’s approach to data privacy?</a>
-              </h5>
-
-              <div id="collapse-general-5" class="collapse">
-                <div class="card-block">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </section> -->
-
-      <section class="section text-center bg-gray" id="section-signup">
+      <section class="section text-center" id="section-signup">
         <header class="section-header">
           <!-- <small><strong>Meet TheSaaS</strong></small> -->
           <h2 class="fs-45 fw-900">Get Started for Free</h2>
@@ -415,7 +340,7 @@
                 <input type="password" class="form-control form-control-lg" placeholder="Password">
               </div> -->
 
-              <button class="btn btn-block btn-lg btn-success">Join Beta</button>
+              <button class="btn btn-block btn-lg btn-info">Join Beta</button>
             </form>
 
             <br>
@@ -436,7 +361,7 @@
 
 
     <!-- Footer -->
-    <footer class="site-footer">
+    <footer class="site-footer bg-gray">
       <div class="container">
         <div class="row gap-y align-items-center">
           <div class="col-12 col-lg-3">
@@ -451,9 +376,9 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="http://blog.yeva.co">Blog</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="page-feature.html">Features</a>
               </li>
               <li class="nav-item hidden-sm-down">
@@ -461,7 +386,7 @@
               </li>
               <li class="nav-item hidden-sm-down">
                 <a class="nav-link" href="page-contact.html">Contact</a>
-              </li>
+              </li> -->
             </ul>
           </div>
 
