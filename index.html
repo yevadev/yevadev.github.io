@@ -42,8 +42,10 @@
             <li class="nav-item"><a class="nav-link" href="#" data-scrollto="home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-features">Learn More</a></li>
             <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-statistics">Statistics</a></li>
-            <li class="nav-item"><a class="nav-link" href="enterprise.html">Enterprise</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-mission">Mission</a></li>
             <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-signup">Sign Up</a></li>
+            <span class="px-10">|</span>
+            <li class="nav-item"><a class="nav-link" href="enterprise.html">Enterprise</a></li>
           </ul>
         </div>
 
@@ -107,7 +109,6 @@
         	<header class="section-header">
             <!-- <small>Learn More</small> -->
             <h2 class="fs-40">A dedicated mentor for personalized support</h2>
-            <hr>
             <p class="lead fs-25">Yeva mentors provide personalized advice and guidance from their own experiences and those of more than 10,000 other caregivers.</p>
           </header>
           
@@ -172,7 +173,6 @@
           <header class="section-header">
             <!-- <small><strong>Statistics</strong></small> -->
             <h2 class="fs-35">The Caregiver Crisis</h2>
-            <hr>
             <p class="lead fs-20">People are growing older, retirement savings are shrinking, and the number of Alzheimer's and Dementia patients is expected to grow by 40% by 2025. The burden of care is increasingly falling on untrained family members who are busier and more overwhelmed than ever before.</p>
           </header>
 
@@ -215,7 +215,7 @@
           <br><br>
       </section>
 
-      <section class="section py-150">
+      <section class="section py-150" id="section-mission">
         <div class="container">
         <div class="mb-30" style="height: 75px">
           <h1 class="text-center fs-35">We built Yeva for a <span class="text-primary " data-type-speed=100 data-loop="false" data-type="Wife, Husband, Mother, Father, Grandparent, Son, Daughter, Loved One">Start</span></h1>
@@ -265,26 +265,97 @@
 
         <div class="row">
           <div class="col-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4">
-            <form>
+            <form method="POST" action="http://formspree.io/caregivers@yeva.co">
               <!-- <div class="form-group">
                 <input type="text" class="form-control form-control-lg" placeholder="Name">
               </div> -->
 
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg" placeholder="Email">
+                <input type="text" name="email" class="form-control form-control-lg" placeholder="Email">
               </div>
 
               <!-- <div class="form-group">
                 <input type="password" class="form-control form-control-lg" placeholder="Password">
               </div> -->
 
-              <button class="btn btn-block btn-lg btn-info">Join Beta</button>
+              <button class="btn btn-block btn-lg btn-info" type="submit" value="send">Join Beta</button>
             </form>
 
             <br>
           </div>
         </div>
 
+      </section>
+
+      <section class="section" id="section-faq">
+        <div class="container">
+          <header class="section-header">
+            <small>Faq</small>
+            <h2>Frequently Asked Questions</h2>
+            <hr>
+            <p class="lead">Drop us an email if you couldn't find an answert to your question in the following list.</p>
+          </header>
+
+
+          <div class="row gap-y gap-3">
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">What is TheSaaS?</h6>
+              <p>It is a collection of layouts, design patterns, components, and guidelines for creating admin templates, SaaS startups, and complex dashboards.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">How long does it take?</h6>
+              <p>It is a collection of layouts, design patterns, components, and guidelines for creating admin templates, SaaS startups, and complex dashboards.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">What payment services do you support?</h6>
+              <p>We accept all major credit cards.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Can I update my card details?</h6>
+              <p>Yes. Go to the billing section of your dashboard and update your payment information.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Can I cancel my subscription?</h6>
+              <p>You can cancel your subscription at any time. Cancelling your plan comes into effect the following month.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Can I get refund?</h6>
+              <p>Unfortunately, not at this time! Please try our free plan for a while to make sure Helpato is what you want.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">What if I want to change plans?</h6>
+              <p>It's quick and easy to switch between our different pricing plans from your dashboard.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">How long are your contracts?</h6>
+              <p>You can upgrade, downgrade, or cancel your monthly account at any time with no further obligation.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Other questions?</h6>
+              <p>We're always available at support@domain.com</p>
+            </div>
+
+          </div>
+
+
+        </div>
       </section>
 
 
